@@ -1,0 +1,13 @@
+#!/sbin/sh
+> /tmp/configs
+busybox find /dev/block -type l | busybox grep 'by-name' | while read p
+do
+	busybox echo ${p##*/}=$(busybox readlink $p) | busybox awk '{print tolower($0)}'
+done > /tmp/configs
+if [ -z "$(busybox cat /tmp/configs)" ]; then
+	busybox awk '{ print $1"""="""$3 }' $(busybox grep -r "\/boot" /etc | busybox sed 's/:.*//') | busybox sed 's/^\///; /#/d' > /tmp/configs
+fi
+for i in kern-a android_boot kernel lnx boot_a bootimg
+do
+	busybox sed -i "s/$i=/boot=/g" /tmp/configs
+done

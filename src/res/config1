@@ -1,0 +1,6 @@
+#!/sbin/sh
+> /tmp/configs
+busybox find /dev/block -type l | busybox sed '/mmcblk/d' | busybox xargs -n 1 busybox ls -l | busybox sed '/mmcblk/!d;s/.*[ \t][ \t]*\([^ \t][^ \t]*\)[ \t][ \t]*->[ \t][ \t]*\([^ \t][^ \t]*\)$/\1=\2/' | busybox sed 's/^\(.\)/\/\1/;s/=/=\//;s/.*\/\([^=\/][^=\/]*\)=\/\(.*\)/\1=\2/;/^p[0-9]/d' | sort -u | sed '/^$/d'  >> /tmp/configs
+if [ -z "$(cat /tmp/configs)" ]; then
+	busybox awk '{ print $1" ""="" "$3 }' $(busybox grep -r "\/boot" /etc | busybox sed 's/:.*//') | busybox sed 's/^\///; /#/d' >> /tmp/configs
+fi

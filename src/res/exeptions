@@ -1,0 +1,334 @@
+./libbltsville_gc2d.2.2.2.0.so 0 0 0644 /system/vendor/lib/libbltsville_gc2d.so
+./libbltsville_gc2d.so 0 0 0644 /system/vendor/lib/libbltsville_hw2d.so
+./libbltsville_ticpu.2.1.0.0.so 0 0 0644 /system/vendor/lib/libbltsville_ticpu.so
+./libbltsville_ticpu.so 0 0 0644 /system/vendor/lib/libbltsville_cpu.so
+/system/addon.d 0 0 0755
+/system/app/AMAPNetworkLocation/lib/arm64/libapssdk.so 0 0 0644 /system/lib64/libapssdk.so
+/system/app/Bluetooth/lib/arm/libbluetooth_jni.so 0 0 0644 /system/lib/libbluetooth_jni.so
+/system/app/BluetoothExt/lib/arm/libbluetooth_jni.so 0 0 0644 /system/lib/libbluetooth_jni.so
+/system/app/Calculator/lib/arm64/libmiupdate.so 0 0 0644 /system/lib64/libmiupdate.so
+/system/app/Camera2/lib/arm/libjni_jpegutil.so 0 0 0644 /system/lib/libjni_jpegutil.so
+/system/app/Camera2/lib/arm/libjni_tinyplanet.so 0 0 0644 /system/lib/libjni_tinyplanet.so
+/system/app/FactoryMode/lib/arm64/libengmodjni.so 0 0 0644 /system/lib64/libengmodjni.so
+/system/app/FactoryMode/lib/arm64/libqcomfm_jni.so 0 0 0644 /system/lib64/libqcomfm_jni.so
+/system/app/FileExplorer/lib/arm64/libgenius_blur.so 0 0 0644 /system/lib64/libgenius_blur.so
+/system/app/Gallery2/lib/arm/libjni_eglfence.so 0 0 0644 /system/lib/libjni_eglfence.so
+/system/app/Gallery2/lib/arm/libjni_filtershow_filters.so 0 0 0644 /system/lib/libjni_filtershow_filters.so
+/system/app/Gallery2/lib/arm/libjni_jpegstream.so 0 0 0644 /system/lib/libjni_jpegstream.so
+/system/app/Gallery2/lib/arm/librsjni.so 0 0 0644 /system/lib/librsjni.so
+/system/app/Gallery2/lib/arm64/liba3m.so 0 0 0644 /system/lib64/liba3m.so
+/system/app/Gallery2/lib/arm64/libja3m.so 0 0 0644 /system/lib64/libja3m.so
+/system/app/Gallery2/lib/arm64/librsjni.so 0 0 0644 /system/lib64/librsjni.so
+/system/app/jjhome/lib/arm/libbspatch.so 0 0 0644 /system/lib/libbspatch.so
+/system/app/jjhome/lib/arm/libfamily_jni.so 0 0 0644 /system/lib/libfamily_jni.so
+/system/app/jjhome/lib/arm/libgetuiext.so 0 0 0644 /system/lib/libgetuiext.so
+/system/app/jjhome/lib/arm/libJeejenAisound.so 0 0 0644 /system/lib/libJeejenAisound.so
+/system/app/jjhome/lib/arm/libjeejenmsc.so 0 0 0644 /system/lib/libjeejenmsc.so
+/system/app/LatinIME/lib/arm/libjni_latinime.so 0 0 0644 /system/lib/libjni_latinime.so
+/system/app/mab/lib/arm/libDToken.so 0 0 0644 /system/lib/libDToken.so
+/system/app/mab/lib/arm/libentryexpro.so 0 0 0644 /system/lib/libentryexpro.so
+/system/app/mab/lib/arm/libNative.so 0 0 0644 /system/lib/libNative.so
+/system/app/mab/lib/arm/libsecuritysdk-3.1.27.so 0 0 0644 /system/lib/libsecuritysdk-3.1.27.so
+/system/app/mab/lib/arm/libShopSigned.so 0 0 0644 /system/lib/libShopSigned.so
+/system/app/MetokNLP/lib/arm64/libjni_metok.so 0 0 0644 /system/lib64/libjni_metok.so
+/system/app/MetokNLP/lib/arm64/libmiui_apssdk.so 0 0 0644 /system/lib64/libmiui_apssdk.so
+/system/app/MetokNLP/lib/arm64/libmiui_locSDK_2_5OEM.so 0 0 0644 /system/lib64/libmiui_locSDK_2_5OEM.so
+/system/app/MetokNLP/lib/arm64/libtencentloc.so 0 0 0644 /system/lib64/libtencentloc.so
+/system/app/miui/lib/arm64/libmiuiclassproxy.so 0 0 0644 /system/lib64/libmiuiclassproxy.so
+/system/app/miui/lib/arm64/libmiuidiffpatcher.so 0 0 0644 /system/lib64/libmiuidiffpatcher.so
+/system/app/miui/lib/arm64/libmiuiimageutilities.so 0 0 0644 /system/lib64/libmiuiimageutilities.so
+/system/app/miui/lib/arm64/libmiuinative.so 0 0 0644 /system/lib64/libmiuinative.so
+/system/app/MiuiScanner/lib/arm64/libhw_instanttrans.so 0 0 0644 /system/lib64/libhw_instanttrans.so
+/system/app/MiuiScanner/lib/arm64/libhwocr_cntools_shared.so 0 0 0644 /system/lib64/libhwocr_cntools_shared.so
+/system/app/MiuiScanner/lib/arm64/libQuadrangleRecognizer.so 0 0 0644 /system/lib64/libQuadrangleRecognizer.so
+/system/app/MiuiScanner/lib/arm64/libsgmain.so 0 0 0644 /system/lib64/libsgmain.so
+/system/app/MiuiScanner/lib/arm64/libsgmainso-5.1.88.so 0 0 0644 /system/lib64/libsgmainso-5.1.88.so
+/system/app/MiuiScanner/lib/arm64/libtbdecode.so 0 0 0644 /system/lib64/libtbdecode.so
+/system/app/MiuiScanner/lib/arm64/libwenba.so 0 0 0644 /system/lib64/libwenba.so
+/system/app/MiuiVideo/lib/arm/libDecRes_sdk.so 0 0 0644 /system/lib/libDecRes_sdk.so
+/system/app/MiuiVideo/lib/arm/libminivenus.so 0 0 0644 /system/lib/libminivenus.so
+/system/app/MiuiVideo/lib/arm/libmresearch.so 0 0 0644 /system/lib/libmresearch.so
+/system/app/MiuiVideo/lib/arm/libsecurities_sdk.so 0 0 0644 /system/lib/libsecurities_sdk.so
+/system/app/PacProcessor/lib/arm/libjni_pacprocessor.so 0 0 0644 /system/lib/libjni_pacprocessor.so
+/system/app/PacProcessor/lib/arm64/libjni_pacprocessor.so 0 0 0644 /system/lib64/libjni_pacprocessor.so
+/system/app/PicoTts/lib/arm/libttscompat.so 0 0 0644 /system/lib/libttscompat.so
+/system/app/PicoTts/lib/arm/libttspico.so 0 0 0644 /system/lib/libttspico.so
+/system/app/PicoTts/lib/arm64/libttscompat.so 0 0 0644 /system/lib64/libttscompat.so
+/system/app/PicoTts/lib/arm64/libttspico.so 0 0 0644 /system/lib64/libttspico.so
+/system/app/PowerKeeper/lib/arm64/libpowerkeeper_jni.so 0 0 0644 /system/lib64/libpowerkeeper_jni.so
+/system/app/PrintSpooler/lib/arm/libprintspooler_jni.so 0 0 0644 /system/lib/libprintspooler_jni.so
+/system/app/PrintSpooler/lib/arm64/libprintspooler_jni.so 0 0 0644 /system/lib64/libprintspooler_jni.so
+/system/app/SogouInput/lib/arm/libwebp.so 0 0 0644 /system/lib/libwebp.so
+/system/app/SogouInput/lib/arm/libweibosdkcore_sogou.so 0 0 0644 /system/lib/libweibosdkcore_sogou.so
+/system/app/Terminal/lib/arm/libjni_terminal.so 0 0 0644 /system/lib/libjni_terminal.so
+/system/app/webview/lib/arm/libwebviewchromium.so 0 0 0644 /system/lib/libwebviewchromium.so
+/system/app/XMPass/lib/arm64/libxmpass_sdk_patcher.so 0 0 0644 /system/lib64/libxmpass_sdk_patcher.so
+/system/app/XMPass/lib/arm64/xmpass_libweibosdkcore.so 0 0 0644 /system/lib64/xmpass_libweibosdkcore.so
+/system/bin/[ 0 2000 0755 motobox
+/system/bin/app_process 0 2000 0755 app_process32
+/system/bin/app_process 0 2000 0755 app_process64
+/system/bin/bma150_usr 0 1000 0750
+/system/bin/dalvikvm 0 2000 0755 dalvikvm32
+/system/bin/dalvikvm 0 2000 0755 dalvikvm64
+/system/bin/debuggerd 0 0 0755 aee_aed
+/system/bin/dump.f2fs 0 2000 0755 ../bin/fsck.f2fs
+/system/bin/dumpcrash 0 2000 0755 dumpstate
+/system/bin/egrep 0 2000 0755 grep
+/system/bin/fgrep 0 2000 0755 grep
+/system/bin/fsck.exfat 0 2000 0755 mount.exfat
+/system/bin/getconfig 0 2000 0755 motobox
+/system/bin/install-recovery.sh 0 0 0750
+/system/bin/iptables 0 1000 0750
+/system/bin/librank 0 0 0755
+/system/bin/logpersist.cat 0 2000 0755 logpersist.start
+/system/bin/logpersist.stop 0 2000 0755 logpersist.start
+/system/bin/lolcat 0 2000 0755 logcat
+/system/bin/mkfs.exfat 0 2000 0755 mount.exfat
+/system/bin/netcfg 0 3003 0750
+/system/bin/ping 0 3004 0755
+/system/bin/pppd-ril 0 1001 0770
+/system/bin/procmem 0 0 0755
+/system/bin/procrank 0 0 0755
+/system/bin/ptf 0 2000 0755 motobox
+/system/bin/run-as 0 2000 0750
+/system/bin/screenshot 1000 1003 0755
+/system/bin/sh 0 2000 0755 mksh
+/system/bin/su 0 2000 0755 ../xbin/su
+/system/bin/su 0 2000 0755 /system/xbin/su
+/system/bin/tc 0 2000 0750
+/system/bin/test 0 2000 0755 motobox
+/system/bin/uncrypt 0 0 0750
+/system/data-app/klobugreport/lib/arm64/libklobugreport_jni.so 0 0 0644 /system/lib64/libklobugreport_jni.so
+/system/etc/bash 0 2000 0755
+/system/etc/bluetooth 0 2000 0755
+/system/etc/bluetooth/auto_pairing.conf 1000 1000 0755
+/system/etc/bluetooth/blacklist.conf 3002 3002 0444
+/system/etc/dbus.conf 1002 1002 0440
+/system/etc/dhcpcd 0 2000 0755
+/system/etc/dhcpcd/dhcpcd-hooks 0 2000 0755
+/system/etc/dhcpcd/dhcpcd-run-hooks 1014 2000 0550
+/system/etc/firmware 0 2000 0755
+/system/etc/firmware/cmnlib.b00 0 0 0644 /firmware/image/cmnlib.b00
+/system/etc/firmware/cmnlib.b01 0 0 0644 /firmware/image/cmnlib.b01
+/system/etc/firmware/cmnlib.b02 0 0 0644 /firmware/image/cmnlib.b02
+/system/etc/firmware/cmnlib.b03 0 0 0644 /firmware/image/cmnlib.b03
+/system/etc/firmware/cmnlib.mdt 0 0 0644 /firmware/image/cmnlib.mdt
+/system/etc/firmware/isdbtmm.b00 0 0 0644 /firmware/image/isdbtmm.b00
+/system/etc/firmware/isdbtmm.b01 0 0 0644 /firmware/image/isdbtmm.b01
+/system/etc/firmware/isdbtmm.b02 0 0 0644 /firmware/image/isdbtmm.b02
+/system/etc/firmware/isdbtmm.b03 0 0 0644 /firmware/image/isdbtmm.b03
+/system/etc/firmware/isdbtmm.mdt 0 0 0644 /firmware/image/isdbtmm.mdt
+/system/etc/firmware/keymaste.b00 0 0 0644 /firmware/image/keymaste.b00
+/system/etc/firmware/keymaste.b01 0 0 0644 /firmware/image/keymaste.b01
+/system/etc/firmware/keymaste.b02 0 0 0644 /firmware/image/keymaste.b02
+/system/etc/firmware/keymaste.b03 0 0 0644 /firmware/image/keymaste.b03
+/system/etc/firmware/keymaste.mdt 0 0 0644 /firmware/image/keymaste.mdt
+/system/etc/firmware/modem.b00 0 0 0644 /firmware/image/modem.b00
+/system/etc/firmware/modem.b01 0 0 0644 /firmware/image/modem.b01
+/system/etc/firmware/modem.b02 0 0 0644 /firmware/image/modem.b02
+/system/etc/firmware/modem.b03 0 0 0644 /firmware/image/modem.b03
+/system/etc/firmware/modem.b04 0 0 0644 /firmware/image/modem.b04
+/system/etc/firmware/modem.b05 0 0 0644 /firmware/image/modem.b05
+/system/etc/firmware/modem.b06 0 0 0644 /firmware/image/modem.b06
+/system/etc/firmware/modem.b07 0 0 0644 /firmware/image/modem.b07
+/system/etc/firmware/modem.b10 0 0 0644 /firmware/image/modem.b10
+/system/etc/firmware/modem.b12 0 0 0644 /firmware/image/modem.b12
+/system/etc/firmware/modem.b13 0 0 0644 /firmware/image/modem.b13
+/system/etc/firmware/modem.b15 0 0 0644 /firmware/image/modem.b15
+/system/etc/firmware/modem.b16 0 0 0644 /firmware/image/modem.b16
+/system/etc/firmware/modem.b17 0 0 0644 /firmware/image/modem.b17
+/system/etc/firmware/modem.b18 0 0 0644 /firmware/image/modem.b18
+/system/etc/firmware/modem.b19 0 0 0644 /firmware/image/modem.b19
+/system/etc/firmware/modem.b20 0 0 0644 /firmware/image/modem.b20
+/system/etc/firmware/modem.b21 0 0 0644 /firmware/image/modem.b21
+/system/etc/firmware/modem.b24 0 0 0644 /firmware/image/modem.b24
+/system/etc/firmware/modem.b25 0 0 0644 /firmware/image/modem.b25
+/system/etc/firmware/modem.b26 0 0 0644 /firmware/image/modem.b26
+/system/etc/firmware/modem.b27 0 0 0644 /firmware/image/modem.b27
+/system/etc/firmware/modem.mdt 0 0 0644 /firmware/image/modem.mdt
+/system/etc/firmware/playread.b00 0 0 0644 /firmware/image/playread.b00
+/system/etc/firmware/playread.b01 0 0 0644 /firmware/image/playread.b01
+/system/etc/firmware/playread.b02 0 0 0644 /firmware/image/playread.b02
+/system/etc/firmware/playread.b03 0 0 0644 /firmware/image/playread.b03
+/system/etc/firmware/playread.mdt 0 0 0644 /firmware/image/playread.mdt
+/system/etc/firmware/ti-connectivity 0 2000 0755
+/system/etc/firmware/ti-connectivity/wl1271-nvs.bin 0 0 0644 /data/misc/wifi/wl1271-nvs.bin
+/system/etc/firmware/wcd9306/wcd9306_anc.bin 0 0 0644 /data/misc/audio/wcd9320_anc.bin
+/system/etc/firmware/wcd9306/wcd9306_mbhc.bin 0 0 0644 /data/misc/audio/mbhc.bin
+/system/etc/firmware/wcnss.b00 0 0 0644 /firmware/image/wcnss.b00
+/system/etc/firmware/wcnss.b01 0 0 0644 /firmware/image/wcnss.b01
+/system/etc/firmware/wcnss.b02 0 0 0644 /firmware/image/wcnss.b02
+/system/etc/firmware/wcnss.b04 0 0 0644 /firmware/image/wcnss.b04
+/system/etc/firmware/wcnss.b06 0 0 0644 /firmware/image/wcnss.b06
+/system/etc/firmware/wcnss.b09 0 0 0644 /firmware/image/wcnss.b09
+/system/etc/firmware/wcnss.b10 0 0 0644 /firmware/image/wcnss.b10
+/system/etc/firmware/wcnss.b11 0 0 0644 /firmware/image/wcnss.b11
+/system/etc/firmware/wcnss.mdt 0 0 0644 /firmware/image/wcnss.mdt
+/system/etc/firmware/widevine.b00 0 0 0644 /firmware/image/widevine.b00
+/system/etc/firmware/widevine.b01 0 0 0644 /firmware/image/widevine.b01
+/system/etc/firmware/widevine.b02 0 0 0644 /firmware/image/widevine.b02
+/system/etc/firmware/widevine.b03 0 0 0644 /firmware/image/widevine.b03
+/system/etc/firmware/widevine.mdt 0 0 0644 /firmware/image/widevine.mdt
+/system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini 0 0 0644 /data/misc/wifi/WCNSS_qcom_cfg.ini
+/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin 0 0 0644 /persist/WCNSS_qcom_wlan_nv.bin
+/system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat 0 0 0644 /persist/WCNSS_wlan_dictionary.dat
+/system/etc/fs_config_files 0 0 0444
+/system/etc/init.d 0 0 0755
+/system/etc/init.d/90userinit 0 2000 0755
+/system/etc/init.goldfish.s 0 2000 0550
+/system/etc/init.goldfish.sh 0 2000 0550
+/system/etc/install-cm-recovery.sh 0 0 0544
+/system/etc/install-recovery.sh 0 0 0544
+/system/etc/kexec 0 2000 0755
+/system/etc/mspfirmware 0 2000 0755
+/system/etc/nano 0 2000 0755
+/system/etc/omapcam 0 2000 0755
+/system/etc/omapcam/module1_cal 0 2000 0755
+/system/etc/omapcam/module1_ee 0 2000 0755
+/system/etc/omapcam/module2 0 2000 0755
+/system/etc/permissions 0 2000 0755
+/system/etc/ppp/ip-up-vpn 0 0 0550
+/system/etc/ril/oper.lis 0 0 0444
+/system/etc/security 0 2000 0755
+/system/etc/security/cacerts 0 2000 0755
+/system/etc/ssh 0 2000 0755
+/system/etc/terminfo 0 2000 0755
+/system/etc/terminfo/a 0 2000 0755
+/system/etc/terminfo/c 0 2000 0755
+/system/etc/terminfo/d 0 2000 0755
+/system/etc/terminfo/E 0 2000 0755
+/system/etc/terminfo/h 0 2000 0755
+/system/etc/terminfo/l 0 2000 0755
+/system/etc/terminfo/m 0 2000 0755
+/system/etc/terminfo/p 0 2000 0755
+/system/etc/terminfo/r 0 2000 0755
+/system/etc/terminfo/s 0 2000 0755
+/system/etc/terminfo/v 0 2000 0755
+/system/etc/terminfo/w 0 2000 0755
+/system/etc/terminfo/x 0 2000 0755
+/system/etc/throttle.sh 0 1000 0750
+/system/etc/wide-dhcpv6/dhcp6c.script 1014 2000 0550
+/system/etc/wifi 0 2000 0755
+/system/fonts/DroidSans.ttf 0 0 0644 Roboto-Regular.ttf
+/system/fonts/DroidSans-Bold.ttf 0 0 0644 Roboto-Bold.ttf
+/system/framework/miuisdk.jar 0 0 0644 /data/miui/miuisdk.apk
+/system/framework/miuisystem.jar 0 0 0644 /data/miui/miuisystem.apk
+/system/lib/libGLESv3.so 0 0 0644 libGLESv2.so
+/system/lib/libion.so 0 0 0644 /system/lib/libion_ti.so
+/system/lib/modules/wlan.ko 0 0 0644 /system/lib/modules/pronto/pronto_wlan.ko
+/system/lib/modules/wlan.ko 0 0 0644 wlan_mt6628.ko
+/system/lib64/libGLESv3.so 0 0 0644 libGLESv2.so
+/system/media/audio/notifications/MessageComplete.ogg 0 0 0644 ../ui/MessageComplete.ogg
+/system/media/audio/notifications/MessageIncoming.ogg 0 0 0644 ../ui/MessageIncoming.ogg
+/system/priv-app/CleanMaster/lib/arm/libdce-1.1.15-mfr.so 0 0 0644 /system/lib/libdce-1.1.15-mfr.so
+/system/priv-app/CleanMaster/lib/arm/libkcmutil.so 0 0 0644 /system/lib/libkcmutil.so
+/system/priv-app/CleanMaster/lib/arm/libkcmutilex.so 0 0 0644 /system/lib/libkcmutilex.so
+/system/priv-app/CleanMaster/lib/arm/libsic_helper.so 0 0 0644 /system/lib/libsic_helper.so
+/system/priv-app/CleanMaster/lib/arm/libTmsdk-2.0.10-mfr.so 0 0 0644 /system/lib/libTmsdk-2.0.10-mfr.so
+/system/priv-app/CMAudioService/lib/arm/libcmaudio_jni.so 0 0 0644 /system/lib/libcmaudio_jni.so
+/system/priv-app/DefaultContainerService/lib/arm/libdefcontainer_jni.so 0 0 0644 /system/lib/libdefcontainer_jni.so
+/system/priv-app/DefaultContainerService/lib/arm64/libdefcontainer_jni.so 0 0 0644 /system/lib64/libdefcontainer_jni.so
+/system/priv-app/FMRadio/lib/arm/libfmjni.so 0 0 0644 /system/lib/libfmjni.so
+/system/priv-app/MiuiGallery/lib/arm64/libDexHelper.so 0 0 0644 /system/lib64/libDexHelper.so
+/system/priv-app/MiuiGallery/lib/arm64/libMiuiGalleryNSGIF.so 0 0 0644 /system/lib64/libMiuiGalleryNSGIF.so
+/system/priv-app/MiuiGallery/lib/arm64/libnexcralbody_mc_jb.so 0 0 0644 /system/lib64/libnexcralbody_mc_jb.so
+/system/priv-app/MiuiGallery/lib/arm64/libnexeditorsdk.so 0 0 0644 /system/lib64/libnexeditorsdk.so
+/system/priv-app/MiuiGallery/lib/arm64/libnexralbody_audio.so 0 0 0644 /system/lib64/libnexralbody_audio.so
+/system/priv-app/MiuiGallery/lib/arm64/libPinguoImageSDK.so 0 0 0644 /system/lib64/libPinguoImageSDK.so
+/system/priv-app/MiuiGallery/lib/arm64/libwrapnexpcmcalbody.so 0 0 0644 /system/lib64/libwrapnexpcmcalbody.so
+/system/priv-app/QuickSearchBox/lib/arm/lib_miui_arch_indicate.so 0 0 0644 /system/lib/lib_miui_arch_indicate.so
+/system/priv-app/QuickSearchBox/lib/arm/libpl_droidsonroids_gif.so 0 0 0644 /system/lib/libpl_droidsonroids_gif.so
+/system/priv-app/SpacesManagerService/lib/arm/libspaces_jni.so 0 0 0644 /system/lib/libspaces_jni.so
+/system/rfs/apq/gnss/hlos 0 0 0644 /persist/hlos_rfs/shared
+/system/rfs/apq/gnss/ramdumps 0 0 0644 /data/tombstones/modem
+/system/rfs/apq/gnss/readonly/firmware 0 0 0644 /firmware
+/system/rfs/apq/gnss/readwrite 0 0 0644 /persist/rfs/apq/gnss
+/system/rfs/apq/gnss/shared 0 0 0644 /persist/rfs/shared
+/system/rfs/mdm/adsp/hlos 0 0 0644 /persist/hlos_rfs/shared
+/system/rfs/mdm/adsp/ramdumps 0 0 0644 /data/tombstones/lpass
+/system/rfs/mdm/adsp/readonly/firmware 0 0 0644 /firmware
+/system/rfs/mdm/adsp/readwrite 0 0 0644 /persist/rfs/mdm/adsp
+/system/rfs/mdm/adsp/shared 0 0 0644 /persist/rfs/shared
+/system/rfs/mdm/mpss/hlos 0 0 0644 /persist/hlos_rfs/shared
+/system/rfs/mdm/mpss/ramdumps 0 0 0644 /data/tombstones/modem
+/system/rfs/mdm/mpss/readonly/firmware 0 0 0644 /firmware
+/system/rfs/mdm/mpss/readwrite 0 0 0644 /persist/rfs/mdm/mpss
+/system/rfs/mdm/mpss/shared 0 0 0644 /persist/rfs/shared
+/system/rfs/mdm/sparrow/hlos 0 0 0644 /persist/hlos_rfs/shared
+/system/rfs/mdm/sparrow/ramdumps 0 0 0644 /data/tombstones/sparrow
+/system/rfs/mdm/sparrow/readonly/firmware 0 0 0644 /firmware
+/system/rfs/mdm/sparrow/readwrite 0 0 0644 /persist/rfs/mdm/sparrow
+/system/rfs/mdm/sparrow/shared 0 0 0644 /persist/rfs/shared
+/system/rfs/msm/adsp/hlos 0 0 0644 /persist/hlos_rfs/shared
+/system/rfs/msm/adsp/ramdumps 0 0 0644 /data/tombstones/lpass
+/system/rfs/msm/adsp/readonly/firmware 0 0 0644 /firmware
+/system/rfs/msm/adsp/readwrite 0 0 0644 /persist/rfs/msm/adsp
+/system/rfs/msm/adsp/shared 0 0 0644 /persist/rfs/shared
+/system/rfs/msm/mpss/hlos 0 0 0644 /persist/hlos_rfs/shared
+/system/rfs/msm/mpss/ramdumps 0 0 0644 /data/tombstones/modem
+/system/rfs/msm/mpss/readonly/firmware 0 0 0644 /firmware
+/system/rfs/msm/mpss/readwrite 0 0 0644 /persist/rfs/msm/mpss
+/system/rfs/msm/mpss/shared 0 0 0644 /persist/rfs/shared
+/system/vendor 0 2000 0755
+/system/vendor/app/ims/lib/arm64/libimscamera_jni.so 0 0 0644 /system/vendor/lib64/libimscamera_jni.so
+/system/vendor/app/ims/lib/arm64/libimsmedia_jni.so 0 0 0644 /system/vendor/lib64/libimsmedia_jni.so
+/system/vendor/app/VideoCall/lib/arm/libcamerahandler_jni.so 0 0 0644 /system/vendor/lib/libcamerahandler_jni.so
+/system/vendor/app/VideoCall/lib/arm/libcsvt_jni.so 0 0 0644 /system/vendor/lib/libcsvt_jni.so
+/system/vendor/bin 0 2000 0755
+/system/vendor/ChinaMobile/system/app/DM/lib/arm/libdmjni.so 0 0 0644 /system/vendor/lib/libdmjni.so
+/system/vendor/ChinaMobile/system/app/RcsService/lib/arm/librcs_jni.so 0 0 0644 /system/vendor/lib/librcs_jni.so
+/system/vendor/Default/data/misc/radio/qcril.db.link 0 0 0644 /data/misc/radio/qcril.db
+/system/vendor/Default/system/build.prop.link 0 0 0644 /system/build.prop
+/system/vendor/Default/system/etc/cdma_call_conf.xml.link 0 0 0644 /system/etc/cdma_call_conf.xml
+/system/vendor/Default/system/etc/spn-conf.xml.link 0 0 0644 /system/etc/spn-conf.xml
+/system/vendor/Default/system/vendor/default.prop.link 0 0 0644 /system/vendor/default.prop
+/system/vendor/etc 0 2000 0755
+/system/vendor/etc/nxp 0 2000 0755
+/system/vendor/etc/nxp/BargeIn 0 2000 0755
+/system/vendor/etc/nxp/mVoIP 0 2000 0755
+/system/vendor/etc/nxp/mVoIPFMC 0 2000 0755
+/system/vendor/etc/nxp/mVoIPSec 0 2000 0755
+/system/vendor/firmware 0 2000 0755
+/system/vendor/firmware/mcRegistry 0 2000 0755
+/system/vendor/lib 0 2000 0755
+/system/vendor/lib/drm 0 2000 0755
+/system/vendor/lib/egl 0 2000 0755
+/system/vendor/lib/hw 0 2000 0755
+/system/vendor/lib/hw/gralloc.omap4.so 0 0 0644 gralloc.omap4430.so
+/system/vendor/lib/libEGL_adreno.so 0 0 0644 egl/libEGL_adreno.so
+/system/vendor/lib/libPVRScopeServices.so 0 0 0644 libPVRScopeServices_SGX540_120.so
+/system/vendor/lib/mediadrm 0 2000 0755
+/system/vendor/lib/rfsa 0 2000 0755
+/system/vendor/lib/rfsa/adsp 0 2000 0755
+/system/vendor/lib64 0 2000 0755
+/system/vendor/lib64/drm 0 2000 0755
+/system/vendor/lib64/egl 0 2000 0755
+/system/vendor/lib64/hw 0 2000 0755
+/system/vendor/lib64/libEGL_adreno.so 0 0 0644 egl/libEGL_adreno.so
+/system/vendor/lib64/mediadrm 0 2000 0755
+/system/vendor/media 0 2000 0755
+/system/vendor/pittpatt 0 2000 0755
+/system/vendor/pittpatt/models 0 2000 0755
+/system/vendor/pittpatt/models/detection 0 2000 0755
+/system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7 0 2000 0755
+/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6 0 2000 0755
+/system/vendor/pittpatt/models/recognition 0 2000 0755
+/system/xbin/gunzip 0 2000 0755 pigz
+/system/xbin/gzip 0 2000 0755 pigz
+/system/xbin/hcitool 0 0 0755
+/system/xbin/iwconfig 0 0 0755 iwmulticall
+/system/xbin/iwgetid 0 0 0755 iwmulticall
+/system/xbin/iwlist 0 0 0755 iwmulticall
+/system/xbin/iwpriv 0 0 0755 iwmulticall
+/system/xbin/iwspy 0 0 0755 iwmulticall
+/system/xbin/librank 0 0 0755
+/system/xbin/ls 0 2000 0755 /system/bin/toybox
+/system/xbin/nc 0 2000 0744
+/system/xbin/perfprofd 0 2000 0755
+/system/xbin/procmem 0 0 0755
+/system/xbin/procrank 0 0 0755
+/system/xbin/ps 0 2000 0755 /system/bin/toybox
+/system/xbin/su 0 2000 0755
+/system/xbin/tcpdump 0 0 0755
+/system/xbin/unpigz 0 2000 0755 pigz
+/system/xbin/zcat 0 2000 0755 pigz
