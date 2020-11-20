@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AromaGenerator">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="5" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="804" height="526"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="89e7a" class="javax.swing.JButton" binding="Gener">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Generated"/>
+        </properties>
+      </component>
+      <scrollpane id="6aa85">
+        <constraints>
+          <grid row="0" column="7" row-span="5" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="-1"/>
+            <preferred-size width="200" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4d25d" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties>
+              <autoCreateRowSorter value="true"/>
+              <autoResizeMode value="4"/>
+              <dropMode value="ON"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="d9785" binding="LeftPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="7" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <tabbedpane id="8213b" binding="pages">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="e7b11" binding="changelogs" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="Список изменений"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="a6aa6" binding="General" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="960e6" binding="ChalgelogScrol">
+                        <constraints>
+                          <grid row="0" column="0" row-span="7" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <alignmentX value="0.0"/>
+                          <alignmentY value="0.0"/>
+                          <autoscrolls value="true"/>
+                          <inheritsPopupMenu value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="f83d9" class="javax.swing.JTextArea" binding="ChengelogTextArea">
+                            <constraints/>
+                            <properties>
+                              <enabled value="true"/>
+                              <focusCycleRoot value="true"/>
+                              <focusTraversalPolicyProvider value="true"/>
+                              <tabSize value="9"/>
+                              <text value=""/>
+                              <wrapStyleWord value="true"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="b5f80" binding="page1" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="Страница1"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="4a4ae" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <dragEnabled value="true"/>
+                    </properties>
+                  </component>
+                  <component id="95daa" class="javax.swing.JTextField" binding="textField8" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="f5c9f" class="javax.swing.JTextField" binding="textField9" default-binding="true">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <scrollpane id="66e5e">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <autoscrolls value="true"/>
+                      <doubleBuffered value="true"/>
+                      <focusCycleRoot value="true"/>
+                      <focusTraversalPolicyProvider value="true"/>
+                      <inheritsPopupMenu value="true"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="d822a" class="javax.swing.JTable" binding="table9" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <autoCreateRowSorter value="true"/>
+                          <autoResizeMode value="4"/>
+                          <cellSelectionEnabled value="true"/>
+                          <columnSelectionAllowed value="true"/>
+                          <doubleBuffered value="true"/>
+                          <dragEnabled value="true"/>
+                          <dropMode value="ON"/>
+                          <fillsViewportHeight value="true"/>
+                          <focusCycleRoot value="true"/>
+                          <focusTraversalPolicyProvider value="true"/>
+                          <surrendersFocusOnKeystroke value="true"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <scrollpane id="e569b">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="1b8b5" class="javax.swing.JTable" binding="table2" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <autoCreateRowSorter value="true"/>
+                          <autoResizeMode value="3"/>
+                          <cellSelectionEnabled value="true"/>
+                          <dragEnabled value="true"/>
+                          <dropMode value="ON_OR_INSERT"/>
+                          <fillsViewportHeight value="true"/>
+                          <focusCycleRoot value="true"/>
+                          <focusTraversalPolicyProvider value="true"/>
+                          <inheritsPopupMenu value="true"/>
+                          <surrendersFocusOnKeystroke value="false"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <component id="1b2b4" class="javax.swing.JTextField" binding="textField13" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+              <grid id="c9a08" binding="page2" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="Страница2"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="f2ed6" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="89496" class="javax.swing.JTextField" binding="textField14" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="f39d3" class="javax.swing.JTextField" binding="textField6" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="59500" class="javax.swing.JTextField" binding="textField7" default-binding="true">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <scrollpane id="ee107">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <autoscrolls value="true"/>
+                      <doubleBuffered value="true"/>
+                      <focusCycleRoot value="true"/>
+                      <focusTraversalPolicyProvider value="true"/>
+                      <inheritsPopupMenu value="true"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="5a38a" class="javax.swing.JTable" binding="table3" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <autoResizeMode value="4"/>
+                          <cellSelectionEnabled value="false"/>
+                          <columnSelectionAllowed value="false"/>
+                          <doubleBuffered value="true"/>
+                          <dragEnabled value="true"/>
+                          <fillsViewportHeight value="true"/>
+                          <focusCycleRoot value="true"/>
+                          <focusTraversalPolicyProvider value="true"/>
+                          <inheritsPopupMenu value="true"/>
+                          <surrendersFocusOnKeystroke value="true"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <scrollpane id="bf64c">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="56000" class="javax.swing.JTable" binding="table8" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <autoCreateRowSorter value="true"/>
+                          <autoResizeMode value="4"/>
+                          <cellSelectionEnabled value="true"/>
+                          <doubleBuffered value="true"/>
+                          <dragEnabled value="true"/>
+                          <dropMode value="ON"/>
+                          <fillsViewportHeight value="true"/>
+                          <focusCycleRoot value="true"/>
+                          <focusTraversalPolicyProvider value="true"/>
+                          <inheritsPopupMenu value="true"/>
+                          <surrendersFocusOnKeystroke value="true"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                </children>
+              </grid>
+              <grid id="6640" binding="page3" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="Страница3"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="4ccd5" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="dfd15" class="javax.swing.JTextField" binding="textField15" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="df82f" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="3733" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <scrollpane id="bd535">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="f6ff" class="javax.swing.JTable" binding="table4" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <autoCreateRowSorter value="true"/>
+                          <cellSelectionEnabled value="true"/>
+                          <columnSelectionAllowed value="true"/>
+                          <doubleBuffered value="true"/>
+                          <dragEnabled value="true"/>
+                          <dropMode value="ON"/>
+                          <fillsViewportHeight value="true"/>
+                          <focusCycleRoot value="true"/>
+                          <focusTraversalPolicyProvider value="true"/>
+                          <inheritsPopupMenu value="true"/>
+                          <surrendersFocusOnKeystroke value="true"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <scrollpane id="120d">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="89ae7" class="javax.swing.JTable" binding="table7" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <autoCreateRowSorter value="true"/>
+                          <autoResizeMode value="4"/>
+                          <columnSelectionAllowed value="true"/>
+                          <doubleBuffered value="true"/>
+                          <dragEnabled value="true"/>
+                          <dropMode value="ON"/>
+                          <fillsViewportHeight value="true"/>
+                          <focusCycleRoot value="true"/>
+                          <focusTraversalPolicyProvider value="true"/>
+                          <inheritsPopupMenu value="true"/>
+                          <surrendersFocusOnKeystroke value="true"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                </children>
+              </grid>
+              <grid id="27ceb" binding="page4" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="Страница4"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="10963" class="javax.swing.JTextField" binding="textField10">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="fc1cf" class="javax.swing.JTextField" binding="textField11">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="ea7ac" class="javax.swing.JTextField" binding="textField12">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="caaae" class="javax.swing.JTextField" binding="textField16" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <scrollpane id="ba33a">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="b9d7a" class="javax.swing.JTable" binding="table5" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <autoCreateRowSorter value="true"/>
+                          <autoResizeMode value="4"/>
+                          <cellSelectionEnabled value="true"/>
+                          <doubleBuffered value="true"/>
+                          <dragEnabled value="true"/>
+                          <dropMode value="ON"/>
+                          <fillsViewportHeight value="true"/>
+                          <focusCycleRoot value="true"/>
+                          <focusTraversalPolicyProvider value="true"/>
+                          <inheritsPopupMenu value="true"/>
+                          <surrendersFocusOnKeystroke value="true"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <scrollpane id="15f0c">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="5ffff" class="javax.swing.JTable" binding="table6" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <autoCreateRowSorter value="true"/>
+                          <autoResizeMode value="4"/>
+                          <cellSelectionEnabled value="true"/>
+                          <columnSelectionAllowed value="true"/>
+                          <doubleBuffered value="true"/>
+                          <dragEnabled value="true"/>
+                          <dropMode value="ON"/>
+                          <fillsViewportHeight value="true"/>
+                          <focusCycleRoot value="true"/>
+                          <focusTraversalPolicyProvider value="true"/>
+                          <inheritsPopupMenu value="true"/>
+                          <surrendersFocusOnKeystroke value="true"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                </children>
+              </grid>
+            </children>
+          </tabbedpane>
+        </children>
+      </grid>
+      <component id="35404" class="javax.swing.JCheckBox" binding="themeCheckBox" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="-1"/>
+            <preferred-size width="100" height="-1"/>
+            <maximum-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <selected value="false"/>
+          <text value="Theme"/>
+        </properties>
+      </component>
+      <component id="d955b" class="javax.swing.JCheckBox" binding="updateClearCheckBox" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <selected value="false"/>
+          <text value="Update/Clear"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="b7149" class="javax.swing.JFormattedTextField" binding="foldermods">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="90" height="-1"/>
+            <preferred-size width="90" height="-1"/>
+            <maximum-size width="90" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="10"/>
+          <text value="Mods"/>
+        </properties>
+      </component>
+      <component id="a98db" class="javax.swing.JFormattedTextField" binding="dateFormattedTextField" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="65" height="-1"/>
+            <maximum-size width="65" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Date"/>
+        </properties>
+      </component>
+      <component id="c8388" class="javax.swing.JFormattedTextField" binding="versionFormattedTextField" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="65" height="-1"/>
+            <maximum-size width="65" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Version"/>
+        </properties>
+      </component>
+      <component id="c5acf" class="javax.swing.JFormattedTextField" binding="authorFormattedTextField" default-binding="true">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="65" height="-1"/>
+            <maximum-size width="65" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Author"/>
+        </properties>
+      </component>
+      <component id="5d283" class="javax.swing.JFormattedTextField" binding="nameFormattedTextField" default-binding="true">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="65" height="-1"/>
+            <maximum-size width="65" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="612fd" class="javax.swing.JFormattedTextField" binding="deviceFormattedTextField" default-binding="true">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="65" height="-1"/>
+            <maximum-size width="65" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Device"/>
+        </properties>
+      </component>
+      <component id="a7c0b" class="javax.swing.JCheckBox" binding="SelectLang">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="-1"/>
+            <preferred-size width="100" height="-1"/>
+            <maximum-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Lang (rus/eng)"/>
+        </properties>
+      </component>
+      <component id="68f8c" class="javax.swing.JButton" binding="boldButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="45" height="20"/>
+            <preferred-size width="45" height="20"/>
+            <maximum-size width="45" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font style="1"/>
+          <horizontalTextPosition value="0"/>
+          <text value="B"/>
+        </properties>
+      </component>
+      <component id="70a01" class="javax.swing.JButton" binding="italicButton">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="45" height="20"/>
+            <preferred-size width="45" height="20"/>
+            <maximum-size width="45" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font style="2"/>
+          <horizontalTextPosition value="0"/>
+          <text value="I"/>
+        </properties>
+      </component>
+      <component id="30443" class="javax.swing.JButton" binding="underlineButton">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="45" height="20"/>
+            <preferred-size width="45" height="20"/>
+            <maximum-size width="45" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <font/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <text value="U"/>
+        </properties>
+      </component>
+      <component id="ea0fa" class="javax.swing.JButton" binding="CenterButton">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="45" height="20"/>
+            <preferred-size width="45" height="20"/>
+            <maximum-size width="45" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <horizontalTextPosition value="0"/>
+          <text value="C"/>
+        </properties>
+      </component>
+      <component id="19659" class="javax.swing.JButton" binding="RightButton">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="45" height="20"/>
+            <preferred-size width="45" height="20"/>
+            <maximum-size width="45" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <horizontalTextPosition value="0"/>
+          <text value="R"/>
+        </properties>
+      </component>
+      <component id="e407c" class="javax.swing.JButton" binding="LeftButton">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="45" height="20"/>
+            <preferred-size width="45" height="20"/>
+            <maximum-size width="45" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <horizontalTextPosition value="0"/>
+          <text value="L"/>
+        </properties>
+      </component>
+      <component id="17a82" class="javax.swing.JButton" binding="ColorButton">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="65" height="20"/>
+            <preferred-size width="65" height="20"/>
+            <maximum-size width="65" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusPainted value="false"/>
+          <focusable value="false"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Color"/>
+        </properties>
+      </component>
+      <component id="89c9d" class="javax.swing.JComboBox" binding="themeslist">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="90" height="-1"/>
+            <preferred-size width="90" height="-1"/>
+            <maximum-size width="90" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
